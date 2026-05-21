@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "services": "技能",
+    "contact": "联系"
+  },
+  "home": {
+    "greeting": "你好，我是",
+    "name": "汪火胜",
+    "tagline": "软件工程专业学生 / 全栈开发爱好者",
+    "description": "海南师范大学软件工程专业在读。热衷于借助 AI 工具进行全栈开发实践，具备从需求分析到项目落地的完整工程经验。",
+    "cta_view_work": "查看技能",
+    "cta_contact": "与我联系"
+  },
+  "about": {
+    "label": "关于我",
+    "title": "热爱编程，持续成长",
+    "bio_1": "我目前就读于海南师范大学软件工程专业（2024 年 9 月入学），主修 HTML5 编程、Java 程序设计基础、Python 程序设计基础、J2EE、数据结构与算法、MySQL 编程、离散数学、计算机组成原理、计算机网络等课程。荣获 2025 年第 18 届中国大学生计算机设计大赛国赛二等奖、互联网+ 校级银奖。",
+    "bio_2": "项目实践方面，我在「琼语智译通」计设项目中参与前端页面开发与迭代，并负责 PPT 设计制作，项目荣获国赛二等奖。同时独立完成了一个全栈智能商店管理系统，借助 Claude Code + DeepSeek-V4 Pro，前端采用 React 19 + Vite 8，后端基于 Node.js + Express + MySQL，支持商品管理、销售记录、数据分析和完整的 C 端用户体验优化，从初始版本 v1.0 持续迭代至 v1.3（尚未部署，可现场演示）。",
+    "bio_3": "校园生活中，我担任人工智能学院省工程研究中心学术助理（2024.11 - 2025.06），获校运会男子甲组 3000m 第八名、「文明宿舍」荣誉，并担任「专业拓展实践（Java 小项目实践）」课程小组组长获课程高分。我对软件工程全流程有基本理解，从需求分析到部署落地都有涉猎，具备较强的学习能力与沟通能力，希望在实习中进一步提升工程实践能力。",
+    "skills_title": "技术能力"
+  },
+  "services": {
+    "label": "技能与优势",
+    "title": "我能做什么",
+    "description": "持续学习中积累的技术栈与实践能力",
+    "items": [
+      {
+        "title": "Word 文档",
+        "description": "熟练掌握 Word 文档编辑与排版，能够制作规范的课程报告、项目文档和技术文档，熟悉目录生成、样式统一、页眉页脚、引用管理等高级功能。"
+      },
+      {
+        "title": "PPT 制作",
+        "description": "具备丰富的 PPT 设计与制作经验，曾负责「琼语智译通」计设项目的 PPT 设计制作（项目获国赛二等奖）。熟悉版式设计、动画效果与内容呈现逻辑，能够制作兼具美观性与信息传达效果的演示文稿。"
+      },
+      {
+        "title": "英语交流",
+        "description": "CET-4 456 分，CET-6 已考（成绩未出）。能够完成基本的英语口语交流，阅读英文技术文档无障碍。"
+      },
+      {
+        "title": "AI 使用",
+        "description": "熟练使用 Claude Code、DeepSeek-V4 Pro 等主流大模型工具辅助编程开发。能够配置大模型 API 至 IntelliJ IDEA、VS Code、Trae 等编程工具中，借助 AI 显著提升开发效率，具备 AI 辅助全栈开发的项目实战经验。"
+      },
+      {
+        "title": "前端开发",
+        "description": "深入了解 HTML、CSS、JavaScript，能够独立完成响应式页面开发。了解 Vue、React 等现代前端框架，有实际项目开发经验（React 19 + Vite 8）。"
+      },
+      {
+        "title": "后端开发",
+        "description": "深入了解 Spring MVC、Django、MyBatis，熟悉 Spring Boot、Spring AI、Spring Cloud、Node.js + Express 的工作原理，具备完整项目从搭建到落地的经验，独立完成过基于 Node.js + Express + MySQL 的全栈项目。"
+      }
+    ]
+  },
+  "contact": {
+    "label": "联系我",
+    "title": "期待与你交流",
+    "description": "如果你有实习机会或项目合作想法，欢迎随时联系我。",
+    "name": "姓名",
+    "name_placeholder": "请输入你的姓名",
+    "email": "邮箱",
+    "email_placeholder": "请输入你的邮箱地址",
+    "message": "消息",
+    "message_placeholder": "请输入你想要说的话...",
+    "submit": "发送消息",
+    "name_error": "请输入姓名",
+    "name_format_error": "姓名格式不正确（支持中英文、数字、下划线，2-30位）",
+    "email_error": "请输入邮箱地址",
+    "email_format_error": "邮箱格式不正确",
+    "message_error": "请输入消息内容",
+    "message_format_error": "消息内容至少10个字符",
+    "sending": "发送中...",
+    "success": "消息已发送，感谢你的联系！",
+    "send_error": "发送失败，请稍后重试",
+    "send_error_fallback": "点击此处直接打开邮箱发送 →",
+    "send_fail_reasons": "如持续失败：1. 检查网络连接 2. FormSubmit 可能限制了 localhost 测试，部署到线上后通常正常",
+    "info_title": "联系方式",
+    "location": "中国 · 海南"
+  },
+  "footer": {
+    "copyright": "© 2026 汪火胜. All rights reserved.",
+    "designed_by": "设计 & 开发 by 汪火胜"
+  }
+}

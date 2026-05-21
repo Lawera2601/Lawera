@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Skills",
+    "contact": "Contact"
+  },
+  "home": {
+    "greeting": "Hello, I'm",
+    "name": "Lawera",
+    "tagline": "Software Engineering Student / Full-Stack Developer",
+    "description": "Software Engineering undergraduate at Hainan Normal University. Passionate about full-stack development with AI tools, with hands-on experience from requirements analysis to project delivery.",
+    "cta_view_work": "View Skills",
+    "cta_contact": "Get in Touch"
+  },
+  "about": {
+    "label": "About Me",
+    "title": "Keep Learning, Keep Growing",
+    "bio_1": "I am currently pursuing a B.E. in Software Engineering at Hainan Normal University (enrolled Sep 2024). My coursework includes HTML5 Programming, Java Programming Fundamentals, Python Programming Fundamentals, J2EE, Data Structures & Algorithms, MySQL, Discrete Mathematics, Computer Organization, and Computer Networks. I have won the National Second Prize at the 18th China University Computer Design Competition (2025) and the University-Level Silver Award at the Internet+ Competition.",
+    "bio_2": "In project practice, I contributed to frontend development and iteration for 'QiongYuZhiYiTong', where I also designed the project PPT. The project won the National Second Prize at the competition. I also independently built a full-stack smart store management system using Claude Code + DeepSeek-V4 Pro, with React 19 + Vite 8 on the frontend and Node.js + Express + MySQL on the backend. The system supports product management, sales tracking, and data analytics, iterated from v1.0 to v1.3 (not yet deployed — available for live demo).",
+    "bio_3": "On campus, I served as an academic assistant at the Provincial Engineering Research Center of the School of Artificial Intelligence (2024.11 - 2025.06), won 8th place in the men's 3000m race at the 41st University Sports Meet, earned the 'Model Dormitory' honor, and led my course project team to a high score as group leader in the 'Professional Development Practice (Java Project)' course. I have a solid understanding of the complete software engineering lifecycle, strong learning ability, and good communication skills, and I am eager to further develop my engineering capabilities through an internship.",
+    "skills_title": "Technical Skills"
+  },
+  "services": {
+    "label": "Skills & Strengths",
+    "title": "What I Can Do",
+    "description": "Technical stack and practical abilities built through continuous learning",
+    "items": [
+      {
+        "title": "Word Documents",
+        "description": "Proficient in Word document editing and formatting. Able to produce professional course reports, project documentation, and technical documents. Familiar with advanced features including table of contents, style consistency, headers/footers, and reference management."
+      },
+      {
+        "title": "PPT Design",
+        "description": "Extensive experience in PPT design and production. Responsible for PPT design for the 'QiongYuZhiYiTong' competition project (National Second Prize). Skilled in layout design, animation effects, and content presentation, able to create visually appealing and effective presentations."
+      },
+      {
+        "title": "English Communication",
+        "description": "CET-4: 456. CET-6: taken (result pending). Capable of basic spoken English communication and comfortable reading English technical documentation."
+      },
+      {
+        "title": "AI Tools",
+        "description": "Proficient with Claude Code, DeepSeek-V4 Pro, and other major LLM tools for coding assistance. Able to configure LLM APIs within IntelliJ IDEA, VS Code, Trae, and other dev tools to significantly boost development efficiency. Has hands-on project experience with AI-assisted full-stack development."
+      },
+      {
+        "title": "Frontend Development",
+        "description": "Deep understanding of HTML, CSS, and JavaScript. Able to independently build responsive web pages. Experienced with Vue and React, with hands-on project experience (React 19 + Vite 8)."
+      },
+      {
+        "title": "Backend Development",
+        "description": "Deep understanding of Spring MVC, Django, MyBatis. Familiar with the internals of Spring Boot, Spring AI, Spring Cloud, and Node.js + Express. Has complete project experience from setup to deployment, having independently built a full-stack project with Node.js + Express + MySQL."
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contact Me",
+    "title": "Let's Connect",
+    "description": "If you have an internship opportunity or project ideas, feel free to reach out.",
+    "name": "Name",
+    "name_placeholder": "Enter your name",
+    "email": "Email",
+    "email_placeholder": "Enter your email address",
+    "message": "Message",
+    "message_placeholder": "Write your message...",
+    "submit": "Send Message",
+    "name_error": "Please enter your name",
+    "name_format_error": "Invalid name format (letters, Chinese, numbers, underscores, 2-30 chars)",
+    "email_error": "Please enter your email",
+    "email_format_error": "Invalid email format",
+    "message_error": "Please enter your message",
+    "message_format_error": "Message must be at least 10 characters",
+    "sending": "Sending...",
+    "success": "Message sent! Thank you for reaching out!",
+    "send_error": "Send failed. Please try again later",
+    "send_error_fallback": "Click here to email directly →",
+    "send_fail_reasons": "If it keeps failing: 1. Check your network 2. FormSubmit may block localhost testing, usually works once deployed",
+    "info_title": "Contact Info",
+    "location": "Hainan, China"
+  },
+  "footer": {
+    "copyright": "© 2026 Lawera. All rights reserved.",
+    "designed_by": "Designed & Built by Lawera"
+  }
+}
