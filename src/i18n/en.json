@@ -11,7 +11,11 @@
     "tagline": "Software Engineering Student / Full-Stack Developer",
     "description": "Software Engineering undergraduate at Hainan Normal University. Passionate about full-stack development with AI tools, with hands-on experience from requirements analysis to project delivery.",
     "cta_view_work": "View Skills",
-    "cta_contact": "Get in Touch"
+    "cta_contact": "Get in Touch",
+    "badge_competition": "National 2nd Prize",
+    "badge_university": "Hainan Normal University",
+    "badge_fullstack": "Full-Stack Dev",
+    "scroll": "Scroll"
   },
   "about": {
     "label": "About Me",
@@ -19,7 +23,14 @@
     "bio_1": "I am currently pursuing a B.E. in Software Engineering at Hainan Normal University (enrolled Sep 2024). My coursework includes HTML5 Programming, Java Programming Fundamentals, Python Programming Fundamentals, J2EE, Data Structures & Algorithms, MySQL, Discrete Mathematics, Computer Organization, and Computer Networks. I have won the National Second Prize at the 18th China University Computer Design Competition (2025) and the University-Level Silver Award at the Internet+ Competition.",
     "bio_2": "In project practice, I was responsible for PPT design and production for the 'QiongYuZhiYiTong' competition project, which won the National Second Prize. I also independently built a full-stack smart store management system using Claude Code + DeepSeek-V4 Pro, with React 19 + Vite 8 on the frontend and Node.js + Express + MySQL on the backend. The system supports product management, sales tracking, data analytics, and complete C-end user experience optimization, iterated from v1.0 to v1.3 (not yet deployed — available for live demo).",
     "bio_3": "On campus, I served as an academic assistant at the Provincial Engineering Research Center of the School of Artificial Intelligence (2024.11 - 2025.06), won 8th place in the men's 3000m race at the 41st University Sports Meet, earned the 'Model Dormitory' honor, and led my course project team to a high score as group leader in the 'Professional Development Practice (Java Project)' course. I have a solid understanding of the complete software engineering lifecycle, strong learning ability, and good communication skills, and I am eager to further develop my engineering capabilities through an internship.",
-    "skills_title": "Technical Skills"
+    "skills_title": "Technical Skills",
+    "skills_label": "Skills",
+    "stat_enrollment_value": "2024",
+    "stat_enrollment_label": "Enrollment Year",
+    "stat_competition_value": "National 2nd",
+    "stat_competition_label": "Computer Design",
+    "stat_project_value": "v1.3",
+    "stat_project_label": "Full-Stack Project"
   },
   "services": {
     "label": "Skills & Strengths",

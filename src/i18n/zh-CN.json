@@ -11,7 +11,11 @@
     "tagline": "软件工程专业学生 / 全栈开发爱好者",
     "description": "海南师范大学软件工程专业在读。热衷于借助 AI 工具进行全栈开发实践，具备从需求分析到项目落地的完整工程经验。",
     "cta_view_work": "查看技能",
-    "cta_contact": "与我联系"
+    "cta_contact": "与我联系",
+    "badge_competition": "国赛二等奖",
+    "badge_university": "海南师范大学",
+    "badge_fullstack": "全栈开发",
+    "scroll": "向下滚动"
   },
   "about": {
     "label": "关于我",
@@ -19,7 +23,14 @@
     "bio_1": "我目前就读于海南师范大学软件工程专业（2024 年 9 月入学），主修 HTML5 编程、Java 程序设计基础、Python 程序设计基础、J2EE、数据结构与算法、MySQL 编程、离散数学、计算机组成原理、计算机网络等课程。荣获 2025 年第 18 届中国大学生计算机设计大赛国赛二等奖、互联网+ 校级银奖。",
     "bio_2": "项目实践方面，我在「琼语智译通」计设项目中负责 PPT 设计制作，项目荣获国赛二等奖。同时独立完成了一个全栈智能商店管理系统，借助 Claude Code + DeepSeek-V4 Pro，前端采用 React 19 + Vite 8，后端基于 Node.js + Express + MySQL，支持商品管理、销售记录、数据分析和完整的 C 端用户体验优化，从初始版本 v1.0 持续迭代至 v1.3（尚未部署，可现场演示）。",
     "bio_3": "校园生活中，我担任人工智能学院省工程研究中心学术助理（2024.11 - 2025.06），获校运会男子甲组 3000m 第八名、「文明宿舍」荣誉，并担任「专业拓展实践（Java 小项目实践）」课程小组组长获课程高分。我对软件工程全流程有基本理解，从需求分析到部署落地都有涉猎，具备较强的学习能力与沟通能力，希望在实习中进一步提升工程实践能力。",
-    "skills_title": "技术能力"
+    "skills_title": "技术能力",
+    "skills_label": "技能",
+    "stat_enrollment_value": "2024",
+    "stat_enrollment_label": "入学年份",
+    "stat_competition_value": "国二",
+    "stat_competition_label": "计算机设计大赛",
+    "stat_project_value": "v1.3",
+    "stat_project_label": "全栈项目迭代"
   },
   "services": {
     "label": "技能与优势",

@@ -21,15 +21,15 @@ onMounted(() => {
     <div class="hero-badges" :class="{ visible: mounted }">
       <div class="badge">
         <span class="badge-icon">🏆</span>
-        <span class="badge-text">国赛二等奖</span>
+        <span class="badge-text">{{ t('home.badge_competition') }}</span>
       </div>
       <div class="badge">
         <span class="badge-icon">🎓</span>
-        <span class="badge-text">海南师范大学</span>
+        <span class="badge-text">{{ t('home.badge_university') }}</span>
       </div>
       <div class="badge">
         <span class="badge-icon">⚡</span>
-        <span class="badge-text">全栈开发</span>
+        <span class="badge-text">{{ t('home.badge_fullstack') }}</span>
       </div>
     </div>
 
@@ -53,7 +53,7 @@ onMounted(() => {
     </div>
 
     <div class="hero-scroll">
-      <span class="scroll-text">Scroll</span>
+      <span class="scroll-text">{{ t('home.scroll') }}</span>
       <div class="scroll-line"></div>
     </div>
   </section>

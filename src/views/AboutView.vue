@@ -17,9 +17,9 @@ const skills = [
 ]
 
 const stats = [
-  { value: '2024', label: '入学年份', icon: '🎓' },
-  { value: '国二', label: '计算机设计大赛', icon: '🏆' },
-  { value: 'v1.3', label: '全栈项目迭代', icon: '🚀' }
+  { value: t('about.stat_enrollment_value'), label: t('about.stat_enrollment_label'), icon: '🎓' },
+  { value: t('about.stat_competition_value'), label: t('about.stat_competition_label'), icon: '🏆' },
+  { value: t('about.stat_project_value'), label: t('about.stat_project_label'), icon: '🚀' }
 ]
 </script>
 
@@ -55,7 +55,7 @@ const stats = [
     <section class="section skills-section">
       <div class="container">
         <ScrollReveal>
-          <p class="section-label">Skills</p>
+          <p class="section-label">{{ t('about.skills_label') }}</p>
           <h2 class="section-title" style="font-size: var(--font-size-3xl);">{{ t('about.skills_title') }}</h2>
           <div class="skills-grid">
             <div class="skills-col" v-for="chunk in [skills.slice(0, 3), skills.slice(3)]" :key="chunk[0].name">
