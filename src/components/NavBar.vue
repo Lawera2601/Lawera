@@ -4,8 +4,14 @@ import { useRouter, useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import ThemeToggle from './ThemeToggle.vue'
 import LangSwitch from './LangSwitch.vue'
-import { NAV_ITEMS } from '../constants.js'
 import { useScroll } from '../composables/useScroll.js'
+
+const NAV_ITEMS = [
+  { path: '/', key: 'nav.home' },
+  { path: '/about', key: 'nav.about' },
+  { path: '/services', key: 'nav.services' },
+  { path: '/contact', key: 'nav.contact' }
+]
 
 const { t } = useI18n()
 const router = useRouter()
