@@ -1,51 +1,68 @@
-# Lawera
+# Lawera - Personal Portfolio
 
-汪火胜的个人作品集网站，展示个人技能、项目服务与联系方式。
+A bilingual personal portfolio website built with **Vue 3** + **Vite 8**, deployed on GitHub Pages.
 
-## 技术栈
+## Tech Stack
 
-- **Vue 3** — Composition API + `<script setup>`
-- **Vite 8** — 开发与构建
-- **Vue Router 4** — 客户端路由
-- **Vue I18n** — 中英文国际化
-- **GSAP** — 高性能动画
+| Category | Technology |
+|----------|------------|
+| Framework | Vue 3 (Composition API) |
+| Build Tool | Vite 8 |
+| Routing | Vue Router 4 |
+| i18n | Vue I18n 9 (zh-CN / en) |
+| Animations | GSAP 3 |
+| Styling | CSS Custom Properties + Dark/Light Theme |
 
-## 功能
+## Features
 
-- 首页粒子背景 + 动画 Hero
-- 个人简介与技能进度条
-- 服务展示卡片
-- 联系表单（前端校验 + FormSubmit 后端）
-- 暗色/亮色主题切换
-- 中英文语言切换
-- 滚动渐入动画
-- 响应式适配（移动端 / 平板 / 桌面）
+- **Bilingual** — Chinese (zh-CN) and English (en) with language switcher
+- **Dark / Light theme** — Toggle with system preference detection
+- **Responsive design** — Mobile-first, works across all devices
+- **Smooth animations** — GSAP-powered scroll reveals and transitions
+- **Canvas background** — Interactive animated hero section
+- **Contact form** — Email integration via FormSubmit
 
-## 本地开发
-
-```bash
-npm install
-npm run dev       # 启动开发服务器 → http://localhost:5173
-```
-
-## 构建与预览
-
-```bash
-npm run build     # 生产构建
-npm run preview   # 预览构建结果
-```
-
-## 项目结构
+## Project Structure
 
 ```
 src/
-  assets/         # 静态资源与主题 CSS
-  components/     # 公共组件（导航栏、页脚、技能条等）
-  composables/    # 组合式函数（useTheme）
-  i18n/           # 国际化配置与语言文件
-  router/         # 路由配置
-  views/          # 页面组件
-  App.vue         # 根组件
-  main.js         # 应用入口
-  style.css       # 全局样式与 CSS 变量
+├── assets/styles/     # CSS variables & theme styles
+├── components/        # Reusable Vue components
+├── composables/       # Composables (useTheme, useScroll)
+├── i18n/              # Translation files (zh-CN.json, en.json)
+├── router/            # Vue Router config
+├── views/             # Page-level components
+├── App.vue
+├── constants.js
+├── main.js
+└── style.css
 ```
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## Deployment
+
+This site is deployed on **GitHub Pages** with the base path set to `/Lawera/`.
+
+```bash
+npm run build
+# Deploy the dist/ folder to GitHub Pages
+```
+
+## License
+
+MIT
