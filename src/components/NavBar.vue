@@ -71,8 +71,6 @@ function isActive(path) {
 }
 .navbar.scrolled {
   background: var(--color-nav-bg);
-  backdrop-filter: var(--color-nav-blur);
-  -webkit-backdrop-filter: var(--color-nav-blur);
   box-shadow: 0 1px 0 var(--color-border);
   height: 60px;
 }
@@ -168,8 +166,6 @@ function isActive(path) {
     justify-content: center;
     gap: var(--space-md);
     background: var(--color-nav-bg);
-    backdrop-filter: var(--color-nav-blur);
-    -webkit-backdrop-filter: var(--color-nav-blur);
     opacity: 0;
     pointer-events: none;
     transition: opacity var(--transition-base);
